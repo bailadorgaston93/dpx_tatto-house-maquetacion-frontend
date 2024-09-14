@@ -1,0 +1,285 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .tatuators__container{
+        background-image: url("../imgs/8.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        position:relative;
+        color: white;
+        z-index:1;
+    
+    }
+    
+    .tatuators__container::after {
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.8);
+        z-index:-1;
+    }
+    
+    
+    .tatuators__contet-imgs{
+        display: flex;
+        flex-flow: wrap ;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    .tatuators__contet-imgs  img{
+        border-radius: 50%;
+        border:1px solid white;
+        margin: 2%;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .tatuators__container{
+        background-image: url("../imgs/8.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        position:relative;
+        color: white;
+        z-index:1;
+    
+    }
+    
+    .tatuators__container::after {
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.8);
+        z-index:-1;
+    }
+    
+    
+    .tatuators__contet-imgs{
+        display: flex;
+        flex-flow: wrap ;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    .tatuators__contet-imgs  img{
+        border-radius: 50%;
+        border:1px solid white;
+        margin: 2%;
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+    .tatuators__container{
+        background-image: url("../imgs/8.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        position:relative;
+        color: white;
+        z-index:1;
+    
+    }
+    
+    .tatuators__container::after {
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.8);
+        z-index:-1;
+    }
+    
+    
+    .tatuators__contet-imgs{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    .tatuators__contet-imgs  img{
+        border-radius: 50%;
+        border:1px solid white;
+        margin: 2%;
+    }
+
+
+
+
+
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+    .tatuators__container{
+        background-image: url("../imgs/8.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        position:relative;
+        color: white;
+        z-index:1;
+    
+    }
+    
+    .tatuators__container::after {
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.8);
+        z-index:-1;
+    }
+    
+    
+    .tatuators__contet-imgs{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    
+    .tatuators__contet-imgs  img{
+        border-radius: 50%;
+        border:1px solid white;
+        margin: 2%;
+    }
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .tatuators__container{
+        background-image: url("../imgs/8.jpg");
+        background-repeat: repeat;
+        background-size: cover;
+        position:relative;
+        color: white;
+        z-index:1;
+    
+    }
+    
+    .tatuators__container::after {
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,0.8);
+        z-index:-1;
+    }
+    
+    
+    .tatuators__contet-imgs{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    
+    .tatuators__contet-imgs  img{
+        border-radius: 50%;
+        border:1px solid white;
+        margin: 2%;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.tatuators__container{
+    background-image: url("../imgs/8.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    position:relative;
+    color: white;
+    z-index:1;
+
+}
+
+.tatuators__container::after {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    z-index:-1;
+}
+
+
+.tatuators__contet-imgs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.tatuators__contet-imgs  img{
+    border-radius: 50%;
+    border:1px solid white;
+    margin: 2%;
+} */
+
+
+
+
+
+
+
+

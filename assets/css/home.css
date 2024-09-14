@@ -1,0 +1,185 @@
+
+
+@font-face {
+    font-family: sewstain;
+    src: url("../fonts/sewstain.otf");
+}
+
+@font-face {
+    font-family: philosopherRegular;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .home__container{
+        text-align: center;
+        color: ivory;
+        background-image: url("../imgs/2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 500px;
+
+    }
+
+
+    .home__container .title{
+        font-size: 7em;
+        font-family:sewstain;
+    }
+
+    .home__container .subTitle{
+        font-family:philosopherRegular;
+        font-size: 3em;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .home__container{
+        text-align: center;
+        color: ivory;
+        background-image: url("../imgs/2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 500px;
+
+    }
+
+
+    .home__container .title{
+        font-size: 7em;
+        font-family:sewstain;
+    }
+
+    .home__container .subTitle{
+        font-family:philosopherRegular;
+        font-size: 3em;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home__container{
+        text-align: center;
+        color: ivory;
+        background-image: url("../imgs/2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 500px;
+
+    }
+
+
+    .home__container .title{
+        font-size: 7em;
+        font-family:sewstain;
+    }
+
+    .home__container .subTitle{
+        font-family:philosopherRegular;
+        font-size: 3em;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .home__container{
+        text-align: center;
+        color: ivory;
+        background-image: url("../imgs/2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 500px;
+
+    }
+
+
+    .home__container .title{
+        font-size: 7em;
+        font-family:sewstain;
+    }
+
+    .home__container .subTitle{
+        font-family:philosopherRegular;
+        font-size: 3em;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .home__container{
+        text-align: center;
+        color: ivory;
+        background-image: url("../imgs/2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+
+    }
+
+
+    .home__container .title{
+        font-size: 6em;
+        font-family:sewstain;
+    }
+
+    .home__container .subTitle{
+        font-family:philosopherRegular;
+        font-size: 3em;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.home__container{
+    text-align: center;
+    color: ivory;
+    background-image: url("../assets/imgs/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+
+.home__container .title{
+    font-size: 8em;
+    font-family:sewstain;
+}
+
+.home__container .subTitle{
+    font-family:philosopherRegular;
+    font-size: 4em;
+}
+ */
+

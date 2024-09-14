@@ -1,0 +1,250 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: sewstain;
+    src: url("../fonts/sewstain.otf");
+}
+
+@font-face {
+    font-family: philosopherRegular;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+
+
+
+/* padding */
+.p1-total{
+    padding: 1%;
+}
+
+
+.p2-total{
+    padding: 2%;
+}
+
+.p5-total{
+    padding: 5%;
+}
+
+.p10-total{
+    padding: 10%;
+}
+
+.p5-bottom{
+    padding-bottom: 5%;
+}
+
+
+/* margin */
+.m2-total{
+    margin: 5%;
+}
+
+.m5-total{
+    margin: 5%;
+}
+
+.m1-right{
+    margin-right: 0.5%;
+}
+
+
+.m3-right{
+    margin-right: 3%;
+}
+
+.m3-bottom{
+    margin-bottom: 3%;
+}
+
+.m5-bottom{
+    margin-bottom: 5%;
+}
+
+
+.m10-bottom{
+    margin-bottom: 10%;
+}
+
+.m3-top{
+    margin-top: 3%;
+}
+
+
+
+.m5-top{
+    margin-top: 5%;
+}
+
+.m10-top{
+    margin-top: 10%;
+}
+/* head section */
+.head__section p{
+    color: ivory;
+    font-size: 5em;
+    text-align: center;
+    font-family: sewstain;
+    /* padding: 3%; */
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .section_home{
+        padding-top: 27%;
+        padding-bottom: 5%;
+    }
+
+    .section_tatuators{
+        padding-top: 27%;
+        padding-bottom: 5%;
+    }
+
+    .section_about{
+        padding-top: 27%;
+        padding-bottom: 5%;
+    }
+
+    .section_contact{
+        padding-top: 27%;
+        padding-bottom: 5%;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .section_home{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_tatuators{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+    .section_about{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_contact{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .section_home{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_tatuators{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+    .section_about{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_contact{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .section_home{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+    .section_tatuators{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_about{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_contact{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    .section_home{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_tatuators{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    .section_about{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+    .section_contact{
+        padding-top: 7%;
+        padding-bottom: 5%;
+    }
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

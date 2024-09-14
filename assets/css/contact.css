@@ -1,0 +1,444 @@
+
+@font-face {
+    font-family: philosopherRegular;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .contact__container{
+        display: flex;
+        flex-flow: row wrap;
+        color: ivory;
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    
+    .contact__logo{
+        flex-grow: 2;
+    }
+    
+    .contact__logo .title{
+        font-size: 5em;
+        font-family:sewstain;
+    }
+    
+    .contact__logo .subTitle{
+        font-family:philosopherRegular;
+        font-size: 2.5em;
+    }
+    
+    
+    .contact__img{
+        flex-grow: 2;
+    }
+    
+    .contact__img div img{
+        border-radius: 30%;
+        
+    }
+    
+    .contact__social{
+        text-align: center;
+        flex-grow: 2;
+    }
+    
+    
+    .contact__social div p{
+        font-family:philosopherRegular;
+        font-size: 1.5em;
+    }
+
+
+    #c-order1{
+        width: 100%;
+        text-align: center;
+        order: 1;
+    }
+    #c-order2{
+        width: 100%;
+        order: 2;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    #c-order3{
+        width: 100%;
+        text-align: center;
+        order: 3;
+    }
+    
+
+
+    
+
+    .contact-ico-social  a{
+        color: ivory;
+        text-decoration: none;
+    }
+    
+    
+    .contact-ico-social  a:hover{
+        color: rgb(194, 194, 119);
+    
+    }
+    
+    
+    .contact-ico-social  a i{
+        text-align: center;
+        display: inline-block;
+        padding: 3%;
+        margin-top:5%;
+        font-size: 1em;
+        border-bottom: 1px dotted transparent;
+    }
+    
+    
+    .contact-ico-social  a i:hover{
+        border-bottom: 1px dotted ivory;
+        
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+
+    .contact__container{
+        display: flex;
+        flex-flow: row wrap;
+        color: ivory;
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    
+    .contact__logo{
+        flex-grow: 2;
+    }
+    
+    .contact__logo .title{
+        font-size: 5em;
+        font-family:sewstain;
+    }
+    
+    .contact__logo .subTitle{
+        font-family:philosopherRegular;
+        font-size: 2.5em;
+    }
+    
+    
+    .contact__img{
+        flex-grow: 2;
+    
+    }
+    
+    .contact__img div img{
+        border-radius: 30%;
+        
+    }
+    
+    .contact__social{
+        text-align: center;
+        flex-grow: 2;
+    }
+    
+    
+    .contact__social div p{
+        font-family:philosopherRegular;
+        font-size: 1.5em;
+    }
+
+
+
+    
+
+    .contact-ico-social  a{
+        color: ivory;
+        text-decoration: none;
+    }
+    
+    
+    .contact-ico-social  a:hover{
+        color: rgb(194, 194, 119);
+    
+    }
+    
+    
+    .contact-ico-social  a i{
+        text-align: center;
+        display: inline-block;
+        padding: 3%;
+        margin-top:5%;
+        font-size: 1em;
+        border-bottom: 1px dotted transparent;
+    }
+    
+    
+    .contact-ico-social  a i:hover{
+        border-bottom: 1px dotted ivory;
+        
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+
+    .contact__container{
+        display: flex;
+        flex-flow: row wrap;
+        color: ivory;
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    
+    .contact__logo{
+        flex-grow: 2;
+    }
+    
+    .contact__logo .title{
+        font-size: 5em;
+        font-family:sewstain;
+    }
+    
+    .contact__logo .subTitle{
+        font-family:philosopherRegular;
+        font-size: 2.5em;
+    }
+    
+    
+    .contact__img{
+        flex-grow: 2;
+    
+    }
+    
+    .contact__img div img{
+        border-radius: 30%;
+        
+    }
+    
+    .contact__social{
+        text-align: center;
+        flex-grow: 2;
+    }
+    
+    
+    .contact__social div p{
+        font-family:philosopherRegular;
+        font-size: 1.5em;
+    }
+
+
+
+
+    .contact-ico-social  a{
+        color: ivory;
+        text-decoration: none;
+    }
+    
+    
+    .contact-ico-social  a:hover{
+        color: rgb(194, 194, 119);
+    
+    }
+    
+    
+    .contact-ico-social  a i{
+        text-align: center;
+        display: inline-block;
+        padding: 3%;
+        margin-top:5%;
+        font-size: 1em;
+        border-bottom: 1px dotted transparent;
+    }
+    
+    
+    .contact-ico-social  a i:hover{
+        border-bottom: 1px dotted ivory;
+        
+    }
+
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+.contact__container{
+    display: flex;
+    flex-flow: row wrap;
+    color: ivory;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.contact__logo{
+    flex-grow: 2;
+}
+
+.contact__logo .title{
+    font-size: 5em;
+    font-family:sewstain;
+}
+
+.contact__logo .subTitle{
+    font-family:philosopherRegular;
+    font-size: 2.5em;
+}
+
+
+.contact__img{
+    flex-grow: 2;
+
+}
+
+.contact__img div img{
+    border-radius: 30%;
+    
+}
+
+.contact__social{
+    text-align: center;
+    flex-grow: 2;
+}
+
+
+.contact__social div p{
+    font-family:philosopherRegular;
+    font-size: 1.5em;
+}
+
+
+
+
+.contact-ico-social  a{
+    color: ivory;
+    text-decoration: none;
+}
+
+
+.contact-ico-social  a:hover{
+    color: rgb(194, 194, 119);
+
+}
+
+
+.contact-ico-social  a i{
+    text-align: center;
+    display: inline-block;
+    padding: 3%;
+    margin-top:5%;
+    font-size: 1em;
+    border-bottom: 1px dotted transparent;
+}
+
+
+.contact-ico-social  a i:hover{
+    border-bottom: 1px dotted ivory;
+    
+}
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+    .contact__container{
+        display: flex;
+        flex-flow: row wrap;
+        color: ivory;
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    
+    .contact__logo{
+        flex-grow: 2;
+    }
+    
+    .contact__logo .title{
+        font-size: 5em;
+        font-family:sewstain;
+    }
+    
+    .contact__logo .subTitle{
+        font-family:philosopherRegular;
+        font-size: 2.5em;
+    }
+    
+    
+    .contact__img{
+        flex-grow: 2;
+    
+    }
+    
+    .contact__img div img{
+        border-radius: 30%;
+        
+    }
+    
+    .contact__social{
+        text-align: center;
+        flex-grow: 2;
+    }
+    
+    
+    .contact__social div p{
+        font-family:philosopherRegular;
+        font-size: 1.5em;
+    }
+
+
+
+    .contact-ico-social  a{
+        color: ivory;
+        text-decoration: none;
+    }
+    
+    
+    .contact-ico-social  a:hover{
+        color: rgb(194, 194, 119);
+    
+    }
+    
+    
+    .contact-ico-social  a i{
+        text-align: center;
+        display: inline-block;
+        padding: 3%;
+        margin-top:5%;
+        font-size: 1em;
+        border-bottom: 1px dotted transparent;
+    }
+    
+    
+    .contact-ico-social  a i:hover{
+        border-bottom: 1px dotted ivory;
+        
+    }
+
+
+
+}
+
+
+
+

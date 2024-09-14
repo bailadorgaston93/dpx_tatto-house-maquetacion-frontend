@@ -1,0 +1,167 @@
+
+@font-face {
+    font-family: sewstain;
+    src: url("../fonts/sewstain.otf");
+}
+
+@font-face {
+    font-family: philosopherRegular;
+    src: url("../fonts/Philosopher-Regular.ttf");
+}
+
+
+
+
+.welcome__home-bg{
+    background-image: url("../imgs/1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+.navbar__ui-fixed-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 99999999;
+    background-image: url("../imgs/1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+.header__container{
+    
+    display: flex;
+    flex-flow: row wrap;
+    color: ivory;
+
+}
+
+.header__img-logo{
+    flex-grow: 2;
+}
+
+.header__img-logo p{
+    font-size: 2.5em;
+    font-family:sewstain;
+}
+
+
+.header__menu{
+    flex-grow: 8;
+    text-align: center;
+}
+
+.header__menu ul{
+    margin-top:1.2%
+}
+
+
+.header__menu ul li{
+
+    list-style: none;
+    display: inline;
+
+    font-size: 1.5em;
+    font-family:philosopherRegular;
+}
+
+
+.header__menu ul li a{
+    text-decoration: none;
+    color: ivory;
+}
+
+
+.header__menu ul li a:hover{
+    cursor: pointer;
+    color: rgb(194, 194, 119);
+}
+
+
+
+.header__social{
+    flex-grow: 2;
+    text-align: center;
+}
+
+
+
+.header__social  a{
+    color: ivory;
+    text-decoration: none;
+}
+
+
+.header__social  a:hover{
+    color: rgb(194, 194, 119);
+
+}
+
+
+.header__social  a i{
+    text-align: center;
+
+    display: inline-block;
+    padding: 3%;
+    margin-top:5%;
+    font-size: 1.3em;
+    border-bottom: 1px dotted transparent;
+    border-top: 1px dotted transparent;
+}
+
+
+.header__social  a i:hover{
+
+    border-bottom: 1px dotted ivory;
+    border-top: 1px dotted ivory;
+
+
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    }
+    @-webkit-keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    }
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+
+    
+}
